@@ -7,16 +7,17 @@ export const Container = styled.View `
 
 export const Content = styled.View `
     flex: 1;
-    max-height: 450px;
     z-index: 5;
+    justify-content: space-evenly;
 `;
 
 export const Card = styled.View `
-    flex: 1;
+    flex: .8;
     background: #FFF;
     border-radius: 4px;
     margin: 0px 20px;
     height: 100%;
+    max-height: 350px;
 `;
 
 export const CardHeader = styled.View `

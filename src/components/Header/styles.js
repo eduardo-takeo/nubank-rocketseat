@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.View `
     align-items: center;
-    margin: 40px;
+    margin: 15px;
 `;
 
 export const Top = styled.View `
