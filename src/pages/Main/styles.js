@@ -8,16 +8,19 @@ export const Container = styled.View `
 export const Content = styled.View `
     flex: 1;
     z-index: 5;
-    justify-content: space-evenly;
 `;
 
 export const Card = styled.View `
-    flex: .8;
+    flex: 1;
     background: #FFF;
     border-radius: 4px;
     margin: 0px 20px;
     height: 100%;
     max-height: 350px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
 `;
 
 export const CardHeader = styled.View `

@@ -4,6 +4,7 @@ import {StatusBar} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import Header from '../../components/Header/Header';
+import Menu from '../../components/Menu/Menu';
 import Tabs from '../../components/Tabs/Tabs';
 
 import {Container, Content, Card, CardHeader, CardContent, Title, Description, CardFooter, Annotation} from './styles';
@@ -16,6 +17,8 @@ const Main = () => {
                 <Header />
 
                 <Content>
+                    <Menu />
+
                     <Card>
                         <CardHeader>
                             <Icon theme={{ iconFamily: 'MaterialIcons' }} name='attach-money' size={28} color='#666' />
