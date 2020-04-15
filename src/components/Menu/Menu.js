@@ -5,9 +5,14 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import {Container, Code, Nav, NavItem, NavText, SignOutButton, SignOutButtonText} from './styles';
 
-const Menu = () => {
+const Menu = ({translateY}) => {
     return (
-        <Container>
+        <Container style={{
+            opacity: translateY.interpolate({
+                inputRange: [0, 150],
+                outputRange: [0, 1],
+            })
+        }}>
             <Code>
                 <QRCode
                     value='https://nubank.com.br/'
